@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Outfit;
+    src: url("../public/fonts/Outfit/Outfit-Regular.ttf");
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("../public/fonts/Raleway/Raleway-Regular.ttf");
+}
+
+body {
+    font-family: Outfit;
+    background-color: #FFF5F0;
+}
+
+@layer components {
+    .bg-custom-image {
+        background-image: url('../src/assets/header/Frame.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
