@@ -21,6 +21,5 @@ body {
     .bg-custom-image {
         background-image: url('../src/assets/header/Frame.png');
         background-size: cover;
-        background-position: center;
     }
 }
