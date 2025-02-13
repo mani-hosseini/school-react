@@ -3,7 +3,7 @@ import {Heading} from "./heading/heading.jsx";
 import {Items} from "./items/items.jsx";
 import {MainUser} from "./itemuser/main-user.jsx";
 
-export function Main() {
+export function Div() {
     return (
         <main className={'lg:w-[80%] m-auto w-[92%] mt-[72px]'}>
             <Baner/>
@@ -11,6 +11,7 @@ export function Main() {
             <Items/>
             <Heading/>
             <MainUser/>
+            <Heading/>
         </main>
     );
 
