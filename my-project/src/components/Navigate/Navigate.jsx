@@ -39,7 +39,7 @@ function Navigate() {
                             </div>
                             <a
                                 href={section.link}
-                                className="w-full mt-[80px] flex items-center p-[18px] justify-center lg:shadow-[3px_8px_0px_1px_rgba(0,0,0,1)] rounded-[12px] bg-[#FFDECC]"
+                                className="w-full mt-[80px] flex items-center gap-x-3 p-[18px] justify-center lg:shadow-[3px_8px_0px_1px_rgba(0,0,0,1)] rounded-[12px] bg-[#FFDECC]"
                             >
                                 Learn More <img src="../../../src/assets/header/Vector%20(Stroke).svg" alt=""/>
                             </a>
@@ -59,7 +59,7 @@ function Navigate() {
                             </div>
                             <a
                                 href={section.link}
-                                className="w-full mt-[20px] flex items-center p-[18px] justify-center lg:shadow-[3px_8px_0px_1px_rgba(0,0,0,1)] rounded-[12px] bg-[#FFDECC]"
+                                className="w-full mt-[20px] gap-x-3 flex items-center p-[18px] justify-center lg:shadow-[3px_8px_0px_1px_rgba(0,0,0,1)] rounded-[12px] bg-[#FFDECC]"
                             >
                                 Learn More <img src="../../../src/assets/header/Vector%20(Stroke).svg" alt=""/>
                             </a>
