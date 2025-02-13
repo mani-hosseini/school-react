@@ -1,8 +1,10 @@
 import {Baner} from "./baner/baner.jsx";
-import {Heading} from "./heading/heading.jsx";
+import {Heading} from "./heading/heading-user/heading.jsx";
 import {Items} from "./items/items.jsx";
 import {MainUser} from "./itemuser/main-user.jsx";
 import Navigate from "./Navigate/Navigate.jsx";
+import {Headinguser} from "./heading/heading-user/heading-user.jsx";
+import {Headinggallery} from "./heading/heading-user/headinggallery.jsx";
 
 export function Div() {
     return (
@@ -10,9 +12,9 @@ export function Div() {
             <Baner/>
             <Heading/>
             <Items/>
-            <Heading/>
+            <Headinguser/>
             <MainUser/>
-            <Heading/>
+            <Headinggallery/>
             <Navigate/>
         </main>
     );

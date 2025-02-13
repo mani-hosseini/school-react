@@ -4,7 +4,7 @@ import {TittleItem} from "./tittle-item.jsx";
 export function ItemContainer() {
     return (
         <div
-            className={"custom-box"}>
+            className={"custom-box relative"}>
             <Icons/>
             <TittleItem/>
         </div>
